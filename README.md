@@ -18,7 +18,6 @@ relational model. Below is a small user guide on how to use the program.
 
 
 ## Usage
-User Guide (for Linux users):
 1. Start the program using the command make run. You need to input the relative path of the database
 2. Log in using your ID or password. If you do not have one yet, please register. After finishing registering, log in again.
 3. If you are both a user and an artist, you will be asked to choose which role you want to log in as. Otherwise, you will be directed to the
