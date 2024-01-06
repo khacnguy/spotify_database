@@ -17,20 +17,17 @@ relational model. Below is a small user guide on how to use the program.
 
 
 
-## Library
-```
-numpy>=1.18.2
-scipy>=1.4.1
-wget>=3.2
-seaborn>=0.10.0
-tensorflow==2.3.0
-tensorflow-gpu==2.3.0
-opencv-python==4.1.2.30
-tqdm==4.43.0
-pandas
-awscli
-urllib3
-```
+## Usage
+User Guide (for Linux users):
+1. Start the program using the command make run. You need to input the relative path of the database
+2. Log in using your ID or password. If you do not have one yet, please register. After finishing registering, log in again.
+3. If you are both a user and an artist, you will be asked to choose which role you want to log in as. Otherwise, you will be directed to the
+Home screen.
+4. Users can perform some actions: start a music session, end an ongoing session, search for songs, playlists, and artists available on the
+platform, and see more information about the playlist/song/artist you select on another page after searching. You can add a song to an
+existing playlist or a new playlist. You can also log out from the Home screen and log out and return to the Home screen from any page.
+5. Artists will also have some options to perform some actions: you can upload a song that you perform to the platform and see your top
+fans and playlists. You can also log out from the Home screen and log out and return to the Home screen from any page.
 
 ## Structure and Components
 - `create_datasets/create_datasets.py`: Create datasets with captured image 
